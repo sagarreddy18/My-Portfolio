@@ -86,6 +86,7 @@ body{
         opacity: 0;
         animation: slideLeft 1s ease forwards;
         animation-delay: 1s;
+        font-family: cursive;
     }
     .social-media a{
         display: inline-flex;
@@ -136,7 +137,7 @@ body{
         animation-delay: 1s,3s;
     }
     .profile-img img{
-        width: 100%;
+        width: auto;
         display: flex;
         border-radius: 50% / 25%;
     }
