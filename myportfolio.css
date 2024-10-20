@@ -11,7 +11,6 @@ body{
 .header{
     color: white;
     font-family: cursive;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -74,7 +73,7 @@ body{
       color: #0ef;
     }
     .home-content h1{
-        font-size: 56px;
+        font-size: 38px;
         font-weight: 700;
         margin: 4px 0;
         opacity: 0;
@@ -136,10 +135,33 @@ body{
         animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
         animation-delay: 1s,3s;
     }
+    .mobile-media{
+        display: none;
+    }
+
     .profile-img img{
         width: auto;
         display: flex;
         border-radius: 50% / 25%;
+    }
+
+    @media screen and (max-width:778px) {
+        .mobile-media {
+            display: flex;
+            max-width: 450px;
+            margin-right: 80px;
+            opacity: 0;
+            animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+            animation-delay: 1s,3s;
+        }
+        .mobile-media img{
+            width: auto;
+            display: flex;
+            border-radius: 50% / 25%;
+        }
+        .profile-img{
+            display: none;
+        }
     }
 
 
@@ -208,3 +230,6 @@ body{
             opacity: 1;
         }
     }
+
+
+   
