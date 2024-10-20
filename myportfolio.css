@@ -8,20 +8,7 @@
 body{
     background-color: #1f242d;
 }
-.header{
-    color: white;
-    font-family: cursive;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    padding: 20px 10%;
-    background: transparent;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
 
-}
 .logo{
     font-size: 25px;
     color: #fff;
